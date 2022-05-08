@@ -12,11 +12,11 @@
     --main-text-color: rgba(0, 0, 0, 0.836) ;
     --myblack: rgba(0, 0, 0, 0.486);
     --mywhite: rgba(255, 255, 255, 0.74);
-  
+
 }
 
-/*********************** 
-* ABOUT PAGE 
+/***********************
+* ABOUT PAGE
 ***********************/
 main{
     display: flex;
@@ -24,7 +24,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
+
 }
 main h1{
     font-weight: bold;
@@ -95,7 +95,7 @@ main section{
 }
 
 .about-problematique img{
-    width: 60%;
+    width: 30%;
 }
 
 .contenaire-section {
@@ -109,7 +109,7 @@ main section{
   margin: 5px;
   padding: 15px;
   width: 100%;
-  
+
 }
 
 .contenaire-section .about-projects{
@@ -300,7 +300,7 @@ main .service-raison{
 
 
 /********************
-* annexe card style 
+* annexe card style
 *******************/
 .main-blog .blog-card-show{
     position: fixed;
@@ -353,7 +353,7 @@ main .service-raison{
     bottom: 0;
     pointer-events: all;
     background-color: rgba(0, 0, 0, 0.7);
-} 
+}
 
 .main-blog .closeModal-active{
     display: block;
@@ -367,7 +367,7 @@ main .service-raison{
 
 .main-contact .contact-section .contact-list{
     list-style: none;
-    
+
 }
 
 .contact-list li{
@@ -425,5 +425,5 @@ main .service-raison{
     padding: 20px;
     clear: both;
 
-    
-}   
+
+}
